@@ -1,4 +1,4 @@
-import { ContactComponent } from "./components/contact";
+import { ContactComponent } from "@/components/contact";
 
 export default function Contact() {
   return <ContactComponent />;

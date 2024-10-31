@@ -4,11 +4,11 @@ import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
 
 export function FooterComponent() {
   return (
-    <footer className="bg-background shadow-md">
+    <footer className="bg-primary">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
-            <a href="/" className="text-2xl font-bold text-primary">
+            <a href="/" className="text-2xl font-bold text-white">
               Precision Pros Flooring
             </a>
           </div>
@@ -17,7 +17,7 @@ export function FooterComponent() {
               <li>
                 <a
                   href="/"
-                  className="text-gray-600 hover:text-primary text-sm font-medium"
+                  className="text-white hover:text-primary text-sm font-medium"
                 >
                   Home
                 </a>
@@ -25,7 +25,7 @@ export function FooterComponent() {
               <li>
                 <a
                   href="/about"
-                  className="text-gray-600 hover:text-primary text-sm font-medium"
+                  className="text-white hover:text-primary text-sm font-medium"
                 >
                   About
                 </a>
@@ -33,7 +33,7 @@ export function FooterComponent() {
               <li>
                 <a
                   href="/services"
-                  className="text-gray-600 hover:text-primary text-sm font-medium"
+                  className="text-white hover:text-primary text-sm font-medium"
                 >
                   Services
                 </a>
@@ -41,7 +41,7 @@ export function FooterComponent() {
               <li>
                 <a
                   href="/contact"
-                  className="text-gray-600 hover:text-primary text-sm font-medium"
+                  className="text-white hover:text-primary text-sm font-medium"
                 >
                   Contact
                 </a>
@@ -49,7 +49,10 @@ export function FooterComponent() {
             </ul>
           </nav>
           <div className="flex space-x-4">
-            <a href="#" className="text-gray-600 hover:text-primary">
+            <a
+              href="https://www.facebook.com/precision.pros.flooring.llc"
+              className="text-white hover:text-primary"
+            >
               <Facebook className="h-5 w-5" />
               <span className="sr-only">Facebook</span>
             </a>
@@ -57,7 +60,10 @@ export function FooterComponent() {
               <Twitter className="h-5 w-5" />
               <span className="sr-only">Twitter</span>
             </a> */}
-            <a href="#" className="text-gray-600 hover:text-primary">
+            <a
+              href="https://www.instagram.com/precisionprosflooring/#"
+              className="text-white hover:text-primary"
+            >
               <Instagram className="h-5 w-5" />
               <span className="sr-only">Instagram</span>
             </a>
@@ -67,7 +73,7 @@ export function FooterComponent() {
             </a> */}
           </div>
         </div>
-        <div className="mt-8 text-center text-gray-500 text-sm">
+        <div className="mt-8 text-center text-white text-sm">
           © {new Date().getFullYear()} Precision Pros Flooring LLC. All rights
           reserved.
         </div>

@@ -21,12 +21,21 @@ export default {
           foreground: "hsl(var(--popover-foreground))",
         },
         primary: {
-          DEFAULT: "hsl(var(--primary))",
+          DEFAULT: "#152418", // Dark Forest Green
           foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {
-          DEFAULT: "hsl(var(--secondary))",
+          DEFAULT: "#c8bca3", // Beige/Tan
           foreground: "hsl(var(--secondary-foreground))",
+        },
+        ivory: {
+          DEFAULT: "#e6dec7", // Off-white/Ivory
+        },
+        darkgraygreen: {
+          DEFAULT: "#31372b", // Darker Grayish Green
+        },
+        lightbeige: {
+          DEFAULT: "#c2b090", // Light Beige
         },
         muted: {
           DEFAULT: "hsl(var(--muted))",
