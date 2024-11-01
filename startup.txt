@@ -1,0 +1,20 @@
+podman rm -a -f
+
+cd nginx/
+podman build -t custom-nginx .
+
+new way to run:
+podman run --name nginx -p 80:80 -p 443:443 \
+-v /home/ubuntu/ppflooring-website/nginx/nginx.conf:/etc/nginx/conf.d/default.conf:ro \
+-v /etc/letsencrypt:/etc/letsencrypt:ro \
+-d localhost/custom-nginx
+
+old way to run:
+podman run --name nginx -p 80:80 -d custom-nginx
+
+cd ..
+podman build -t fastapi-app .
+podman run -d -p 8000:8000 fastapi-app
+
+
+
