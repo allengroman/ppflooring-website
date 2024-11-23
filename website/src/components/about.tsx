@@ -35,7 +35,7 @@ export function AboutComponent() {
             aria-label="Placeholder for about image"
           ></div> */}
           <img
-            src="src/assets/phillip.jpeg"
+            src="assets/phillip.jpeg"
             className="w-full h-[600px] bg-gray-300 rounded-lg shadow-lg object-[center_top] object-cover"
             aria-label="Placeholder for about image"
           />

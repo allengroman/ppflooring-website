@@ -15,31 +15,31 @@ const services = [
     title: "Carpet Installation",
     description:
       "Enjoy the comfort and warmth of new carpet in your home or office. Our team specializes in installing high-quality carpets, enhancing the look and feel of any room. We work with you to select the perfect style, texture, and color to match your aesthetic, ensuring a flawless finish.",
-    image: "src/assets/service-Carpet.jpeg",
+    image: "assets/service-Carpet.jpeg",
   },
   {
     title: "LVP Installation",
     description:
       "Luxury Vinyl Plank (LVP) is a popular choice for its durability, affordability, and modern appearance. Our team installs LVP with precision, creating a stylish, water-resistant floor that's perfect for high-traffic areas like kitchens, bathrooms, and commercial spaces.",
-    image: "src/assets/service-LVP.jpeg",
+    image: "assets/service-LVP.jpeg",
   },
   {
     title: "Laminate Installation",
     description:
       "Laminate flooring offers the look of hardwood at a fraction of the cost. Our laminate installation service provides a quick and cost-effective way to upgrade your floors. With a variety of styles and finishes, we help you achieve the desired look with long-lasting durability.",
-    image: "src/assets/service-Installation.jpeg",
+    image: "assets/service-Installation.jpeg",
   },
   {
     title: "Hardwood Installation",
     description:
       "Classic, elegant, and timeless—hardwood flooring enhances any space with natural beauty. Our hardwood installation experts work with precision to bring warmth and sophistication to your home or business, using only high-quality wood for a stunning finish.",
-    image: "src/assets/service-Improvments.jpeg",
+    image: "assets/service-Improvments.jpeg",
   },
   {
     title: "Hardwood Re-sand and Finish",
     description:
       "Give your existing hardwood floors a fresh start. Our re-sanding and refinishing service revives worn hardwood, restoring its natural beauty and extending its life. We sand, stain, and apply a protective finish, making your floors look like new again.",
-    image: "src/assets/service-Refinish.jpeg",
+    image: "assets/service-Refinish.jpeg",
   },
 ];
 

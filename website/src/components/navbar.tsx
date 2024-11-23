@@ -16,7 +16,7 @@ export function NavbarComponent() {
           <div className="flex items-center">
             <a href="/">
               <img
-                src="src/assets/ppflogo.png"
+                src="assets/ppflogo.png"
                 className="w-full h-24 bg-gray-300 rounded-lg shadow-lg"
                 aria-label="Placeholder for about image"
                 style={{

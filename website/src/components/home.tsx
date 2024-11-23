@@ -27,7 +27,7 @@ export function HomeComponent() {
           muted
           playsInline
         >
-          <source src="src/assets/intro.mov" type="video/mp4" />
+          <source src="assets/intro.mov" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div
@@ -75,7 +75,7 @@ export function HomeComponent() {
               <Card key={index}>
                 <CardContent className="p-6">
                   <img
-                    src={`src/assets/service-${service.name}.jpeg`}
+                    src={`assets/service-${service.name}.jpeg`}
                     alt={service.name}
                     className="w-full h-48 object-cover mb-4 rounded"
                   />
