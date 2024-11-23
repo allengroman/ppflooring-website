@@ -17,4 +17,4 @@ podman build -t fastapi-app .
 podman run -d -p 8000:8000 fastapi-app
 
 
-
+podman play kube pod.yml
