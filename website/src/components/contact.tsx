@@ -75,7 +75,7 @@ export function ContactComponent() {
                 <div>
                   <h3 className="font-semibold">Location</h3>
                   <p className="text-sm text-gray-600">
-                    Servicing Greater Atlanta
+                    Gwinnett county and surrounding counties
                   </p>
                 </div>
               </div>

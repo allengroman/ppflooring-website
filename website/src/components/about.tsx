@@ -74,8 +74,8 @@ export function AboutComponent() {
               Where We Are
             </h2>
             <p className="text-gray-600">
-              Precision Pros Flooring LLC proudly serves the Greater Atlanta
-              area and surrounding counties. Our clients range from residential
+              Precision Pros Flooring LLC proudly serves Gwinnett county 
+              and surrounding counties. Our clients range from residential
               homeowners looking to upgrade their spaces to commercial
               businesses in need of durable and stylish flooring. With a
               commitment to exceptional service, we ensure that each client

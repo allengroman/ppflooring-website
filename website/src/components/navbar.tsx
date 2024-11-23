@@ -17,7 +17,7 @@ export function NavbarComponent() {
             <a href="/">
               <img
                 src="assets/ppflogo.png"
-                className="w-full h-24 bg-gray-300 rounded-lg shadow-lg"
+                className="h-20 max-w-xs object-contain bg-gray-300 rounded-lg shadow-lg"
                 aria-label="Placeholder for about image"
                 style={{
                   maskImage:
@@ -47,6 +47,12 @@ export function NavbarComponent() {
                 className="text-white hover:text-primary px-3 py-2 rounded-md text-sm font-medium"
               >
                 Services
+              </a>
+              <a
+                href="/gallery"
+                className="text-white hover:text-primary px-3 py-2 rounded-md text-sm font-medium"
+              >
+                Portfolio
               </a>
               <a
                 href="/contact"
@@ -89,6 +95,12 @@ export function NavbarComponent() {
             className="text-white hover:text-primary block px-3 py-2 rounded-md text-base font-medium"
           >
             Services
+          </a>
+          <a
+            href="/gallery"
+            className="text-white hover:text-primary block px-3 py-2 rounded-md text-base font-medium"
+          >
+            Portfolio
           </a>
           <a
             href="/contact"
